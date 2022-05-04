@@ -12,4 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.6.7/g' package/base-files/files/bin/config_generate
-sed -i "s/(PKG_HASH|PKG_MD5SUM|PKG_MIRROR_HASH).*/\1:=skip/" feeds/packages/utils/containerd/Makefile
+
